@@ -1,0 +1,356 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.API/SistemaCompra.API.csproj": {}
+  },
+  "projects": {
+    "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.API/SistemaCompra.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.API/SistemaCompra.API.csproj",
+        "projectName": "SistemaCompra.API",
+        "projectPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.API/SistemaCompra.API.csproj",
+        "packagesPath": "/Users/jeff/.nuget/packages/",
+        "outputPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeff/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj": {
+                "projectPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj"
+              },
+              "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj": {
+                "projectPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj",
+        "projectName": "SistemaCompra.Application",
+        "projectPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj",
+        "packagesPath": "/Users/jeff/.nuget/packages/",
+        "outputPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeff/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj": {
+                "projectPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj"
+              },
+              "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj": {
+                "projectPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj",
+        "projectName": "SistemaCompra.Domain",
+        "projectPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj",
+        "packagesPath": "/Users/jeff/.nuget/packages/",
+        "outputPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeff/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj",
+        "projectName": "SistemaCompra.Infra.Data",
+        "projectPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj",
+        "packagesPath": "/Users/jeff/.nuget/packages/",
+        "outputPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeff/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj": {
+                "projectPath": "/Users/jeff/Downloads/Prova-Sisprev-Fornecedor/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
