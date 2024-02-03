@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using SistemaCompra.Domain;
+using SistemaCompra.Domain.Entidades;
 using SistemaCompra.Infra.Data.Produto;
 using ProdutoAgg = SistemaCompra.Domain.ProdutoAggregate;
 using SolicitacaoAgg = SistemaCompra.Domain.SolicitacaoCompraAggregate;
@@ -13,6 +14,7 @@ namespace SistemaCompra.Infra.Data
 
         public SistemaCompraContext(DbContextOptions options) : base(options) { }
         public DbSet<ProdutoAgg.Produto> Produtos { get; set; }
+        public DbSet<Domain.Entidades.Compra> Compras { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

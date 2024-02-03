@@ -9,29 +9,19 @@ namespace SistemaCompra.Application.ViewModel
     public class CompraViewModel
     {
         public Guid Id { get; set; }
-
         public Money TotalCompra { get; set; }
-
-        public List<Domain.ProdutoAggregate.Produto> Produtos { get; set; }
-
         public DateTime DataCompra { get; set; }
-        
-        public IEnumerable<ProdutoViewModel> Produto { get; set; }
-    }
-    
-    public static CompraViewModel Mapear(Compra compra)
-    {
-        return new CompraViewModel()
+        public IEnumerable<ProdutoViewModel> Produtos { get; set; }
+
+        public static CompraViewModel Mapear(Compra compra)
         {
-            Id = compra.Id,
-            TotalCompra = compra.TotalCompra,
-             DataCompra = compra.DataCompra,
-             Produtos = compra.Produtos.Select(ProdutoViewModel.Mapear)
-             
-            
-        };
+            return new CompraViewModel()
+            {
+                Id = compra.Id,
+                TotalCompra = compra.TotalCompra,
+                DataCompra = compra.DataCompra,
+                Produtos = compra.Produtos.Select(ProdutoViewModel.Mapear)
+            };
+        }
     }
-
 }
-
-
