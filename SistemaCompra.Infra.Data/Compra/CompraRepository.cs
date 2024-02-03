@@ -24,9 +24,24 @@ namespace SistemaCompra.Infra.Data.Compra
             context.Set<CompraRepository>().Remove(entity);
         }
 
-        public CompraRepository Obter(Guid id)
+        public Domain.Entidades.Compra Obter(Guid id)
         {
-            return context.Set<Domain.Entidades.Compra>().Where(c=> c.Id == id).FirstOrDefault();
+            return context.Set<Domain.Entidades.Compra>().FirstOrDefault(c => c.Id == id);
+        }
+
+        public void Registrar(Domain.Entidades.Compra entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Atualizar(Domain.Entidades.Compra entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Excluir(Domain.Entidades.Compra entity)
+        {
+            throw new NotImplementedException();
         }
 
         public void Registrar(CompraRepository entity)
